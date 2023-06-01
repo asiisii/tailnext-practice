@@ -9,6 +9,9 @@ import youtubeIcon from './icon-youtube.svg'
 import twitterIcon from './icon-twitter.svg'
 import pinterestIcon from './icon-pinterest.svg'
 import instagramIcon from './icon-instagram.svg'
+import bgTabletPattern from './bg-tablet-pattern.svg'
+import bgSimplifySectionDesktop from './bg-simplify-section-desktop.svg'
+import bgSimplifySectionMobile from './bg-simplify-section-mobile.svg'
 
 export {
     logo,
@@ -22,4 +25,7 @@ export {
     twitterIcon,
     pinterestIcon,
     instagramIcon,
+    bgTabletPattern,
+    bgSimplifySectionDesktop,
+    bgSimplifySectionMobile
 }
