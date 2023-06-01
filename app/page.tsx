@@ -1,3 +1,4 @@
+import { CallToActionSection } from './components/CallToActionSection';
 import { FeatureSection } from './components/FeatureSection';
 import { HeroSection } from './components/HeroSection';
 import Navbar from './components/Navbar';
@@ -10,6 +11,7 @@ export default function Page() {
       <HeroSection />
       <FeatureSection />
       <TestimonialsSection />
+      <CallToActionSection />
     </>
   );
 }
