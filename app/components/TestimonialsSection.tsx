@@ -52,7 +52,6 @@ export const TestimonialsSection = () => (
       >
         <p>Get Started</p>
       </Link>
-      {/* at 54:18 mins - call to action section next */}
     </div>
   </section>
 );
