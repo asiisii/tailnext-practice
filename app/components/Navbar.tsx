@@ -15,7 +15,7 @@ export default function Navbar() {
         </div>
         {/* Menu items */}
         {/* on medium screen and up it will be flex, space-x is space between each link */}
-        <div className='hidden md:flex space-x-6'>
+        <div className='hidden space-x-6 md:flex'>
           {NavLinks.map((link, index) => (
             <Link href={link.url} key={index}>
               <p className='hover:text-darkGrayishBlue'>{link.name}</p>
@@ -25,7 +25,7 @@ export default function Navbar() {
         {/* button */}
         <Link
           href='#'
-          className='hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight'
+          className='hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full hover:bg-brightRedLight md:block'
         >
           <p>Get Started</p>
         </Link>
